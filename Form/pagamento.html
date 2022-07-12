@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt" >
+<head>
+  <meta charset="UTF-8">
+  <title>Pagamento</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
+<script src="https://use.typekit.net/hoy3lrg.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'><link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="style.css"> 
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="wrapper">
+	<div id="container">
+		<div id="left-col">
+			<div id="left-col-cont">
+				<h2>Detalhes</h2>
+				<div class="item">
+					<div class="img-col">
+						
+					</div>
+					<div class="meta-col">
+						
+					</div>
+				</div>
+				<div class="item">
+					<div class="img-col">
+						<img id="mastercard" class="mastercards" src="visa.png" alt="" />
+					</div>
+					<div class="meta-col">
+						
+					</div>
+				</div>
+				<div class="item">
+					<div class="img-col">
+						<img id="mastercard" src="mastercard.png" alt="" />
+					</div>
+					<div class="meta-col">
+						
+					</div>
+				</div>			
+				<div class="item">
+					<div class="img-col">
+						<img id="mastercard" src="PayPal.svg.png" alt="" />
+					</div>
+					<div class="meta-col">
+						
+
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<div id="right-col">
+			<h2>Pagamento</h2>
+			<div id="logotype">
+				<img id="mastercard" src="Acan.jpeg" alt="" />
+			</div>
+			
+			<form action="">
+				<label for="">Número do Cartão</label>
+				<div id="cardnumber">
+					<input type="number"  placeholder="0123" /> <span class="divider">-</span>
+					<input type="number"  placeholder="4567" /> <span class="divider">-</span>
+					<input type="number"  min="4" placeholder="8901" /> <span class="divider">-</span>
+					<input type="number"  min="4" placeholder="2345" />
+				</div>
+				
+				<label for="">Nome</label>
+				<input id="cardholder" type="text" placeholder="João Miguel" />
+				<div class="left">
+					<label for="">Data de Expiração</label>
+					<select name="month" id="month" onchange="" size="1">
+						<option value="00">Mês</option>
+    				<option value="01">Janeiro</option>
+    				<option value="02">Fevereiro</option>
+    				<option value="03">Março</option>
+    				<option value="04">Abril</option>
+    				<option value="05">Maio</option>
+    				<option value="06">Junho</option>
+    				<option value="07">Julho</option>
+    				<option value="08">Agosto</option>
+    				<option value="09">Setembro</option>
+    				<option value="10">Outubro</option>
+    				<option value="11">Novembro</option>
+    				<option value="12">Dezembro</option>
+					</select>
+					<select name="year" id="year" onchange="" size="1">
+						<option value="00">Ano</option>
+    				<option value="01">2016</option>
+    				<option value="02">2017</option>
+    				<option value="03">2018</option>
+    				<option value="04">2019</option>
+    				<option value="05">2020</option>
+    				<option value="06">2021</option>
+    				<option value="07">2022</option>
+    				<option value="08">2023</option>
+    				<option value="09">2024</option>
+    				<option value="10">2025</option>
+					</select>
+				</div>
+				
+				<div class="right">
+					<label id="cvc-label" for="">CVC <i class="fa fa-question-circle-o" aria-hidden="true"></i></label>
+					<input id="cvc" type="text" placeholder="123" maxlength="3" />
+				</div>
+				<button class="pagamento" id="purchase" ><a href="Infomacao.html">Pagar</a></button>
+				<button id="paypal"><i class="fa fa-paypal" aria-hidden="true"></i> Pagar com PayPal</button>
+				<p id="support">Tem um problema? <a href="#">Contacta-nos</a>.</p>
+			</form>
+		</div>
+	</div>
+</div>
+<h1 id="dailyui">003</h1>
+<img src="Chico-avio.jpg" class="voo">
+<!-- partial -->
+  
+</body>
+</html>

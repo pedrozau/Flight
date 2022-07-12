@@ -1,0 +1,24 @@
+{
+    "name": "user/pdf",
+    "description": "gerar facturas em pdf",
+    "license": "Mit",
+    "autoload": {
+        "psr-4": {
+            "User\\Pdf\\": "src/"
+        },
+        "files":[
+            "src/config.php"
+        ]
+        
+    },
+    "authors": [
+        {
+            "name": "Pedro Zau",
+            "email": "pedrozau28@gmail.com"
+        }
+    ],
+    "require": {
+        "dompdf/dompdf":"0.8.*"
+
+    }
+}
